@@ -1,10 +1,9 @@
 import "./App.css";
-import ExampleComponent from "./components/ExampleComponent";
+import FeaturesComponent from "./components/FeaturesComponent";
 const App = () => {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <ExampleComponent />
+      <FeaturesComponent />
     </div>
   );
 };
